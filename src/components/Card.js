@@ -9,7 +9,7 @@ function Card() {
     }
 
     return (
-        <div className='flex flex-col items-center justify-center bg-grey800 w-96 m-5 p-5 sm:m-0 text-white rounded-xl'>
+        <div className='flex flex-col items-center justify-center bg-grey800 w-80 m-5 p-5 sm:m-0 text-white rounded-xl'>
             <img src={avatarIcon} alt='Avatar' className='rounded-full w-24 my-5'/>
             <h2 className='text-2xl font-bold tracking-wide'>Jessica Randall</h2>
             <p className='text-sm my-3 text-green font-semibold'>London, United Kingdom</p>
